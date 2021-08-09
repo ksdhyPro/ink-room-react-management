@@ -1,0 +1,16 @@
+.ant-layout-sider-children ul{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ant-layout-sider-children ul::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+
+
+#root,.ant-layout{
+    height: 100%;
+}

@@ -1,0 +1,7 @@
+#carousel .cardContent{
+    display: flex;
+}
+
+#carousel .cardContent div{
+    flex: 1;
+}
