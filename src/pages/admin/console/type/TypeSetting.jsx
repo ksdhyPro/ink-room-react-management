@@ -104,7 +104,7 @@ function TypeSetting() {
                 </ImgCrop>
             </div>
         } style={{marginBottom:20}}>
-            <Image src={list[0]?list[0].path:""}></Image>
+            <Image width={300} src={list[0]?list[0].path:""}></Image>
             
         </Card>
 
@@ -124,7 +124,7 @@ function TypeSetting() {
                 </ImgCrop>
             </div>
         } style={{marginBottom:20}}>
-            <Image src={list[1]?list[1].path:""}></Image>
+            <Image width={300} src={list[1]?list[1].path:""}></Image>
             
         </Card>
 
@@ -143,7 +143,7 @@ function TypeSetting() {
                 </ImgCrop>
             </div>
         } style={{marginBottom:20}}>
-            <Image src={list[2]?list[2].path:""}></Image>
+            <Image width={300} src={list[2]?list[2].path:""}></Image>
             
         </Card>
 
@@ -162,7 +162,7 @@ function TypeSetting() {
                 </ImgCrop>
             </div>
         } style={{marginBottom:20}}>
-            <Image src={list[3]?list[3].path:""}></Image>
+            <Image width={300} src={list[3]?list[3].path:""}></Image>
             
         </Card>
 

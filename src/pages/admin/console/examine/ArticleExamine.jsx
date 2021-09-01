@@ -1,5 +1,5 @@
 import React ,{useState,useEffect}from 'react'
-import { Button,Table ,Modal, message } from 'antd';
+import { Button,Table ,Modal, message,Image } from 'antd';
 import {getShenHeList,isArticlePass} from '../../../../api/consoleApi'
 import {timeFormat} from '../../../../utils/timeFormat'
 import './main.css'
@@ -45,6 +45,14 @@ function ArticleExamine() {
             }
             return text;
           }
+        },
+        {
+          title: '文章封面',
+          dataIndex: 'coverPath',
+          
+          render:(text)=>(
+            <Image src={text} width={200} />
+          )
         },
         {
           title: '提交时间',
