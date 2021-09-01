@@ -12,14 +12,13 @@ const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
 const init = function(){
-    let a = window.location.pathname + '/';
-    let b = a.indexOf("/",7);
-    return a.substring(0,b)
+    return '/admin' + '/' +['console','shop','user'].filter(item=>(window.location.hash.indexOf(item)!=-1))[0]
 }
 
 
 function Index(props) {
     const [defaultSelectedKeys, setDefaultSelectedKeys] = useState(init())
+    
     return (
         <Layout>
             <Header className="header" style={{display:"flex"}}>

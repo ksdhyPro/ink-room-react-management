@@ -29,7 +29,7 @@ const Console = () => {
             style={{ height: '100%', borderRight: 0 }}
             >
             <SubMenu key="sub0" icon={<BarChartOutlined />} title="数据展示">
-                <Menu.Item key="0">
+                <Menu.Item key="display">
                     <Link to="/admin/console/display">
                         数据展示
                     </Link>
